@@ -1,0 +1,8 @@
+In order to run this program you would need to:
+
+1. Open a new instance of Visual Studio or any code editor that can compile C# code.
+2. Create a new Console App (.NET Core) or Console App (.NET Framework) project.
+3. Replace the auto-populated Main method with the provided one in Program.cs.
+4. Run the program by pressing F5 or clicking the start button in Visual Studio, or by compiling and running the application from the terminal or command prompt if you are not using an integrated development environment (IDE). 
+
+Remember that the compilation process varies depending on the environment so make sure to look it up if you're unsure.
