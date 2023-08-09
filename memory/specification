@@ -1,0 +1,23 @@
+Here is a basic example of a "Hello, World!" console app in C#:
+
+```csharp
+using System;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+}
+```
+This program writes the phrase "Hello, World!" to the console window. When you run this program, you would see output like this:
+
+```
+Hello, World!
+```
+
+This is the simplest kind of C# program that you can write. It's typically used as a beginner's first program.
