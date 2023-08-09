@@ -1,8 +1,34 @@
-In order to run this program you would need to:
+Example steps for running the program:
 
-1. Open a new instance of Visual Studio or any code editor that can compile C# code.
-2. Create a new Console App (.NET Core) or Console App (.NET Framework) project.
-3. Replace the auto-populated Main method with the provided one in Program.cs.
-4. Run the program by pressing F5 or clicking the start button in Visual Studio, or by compiling and running the application from the terminal or command prompt if you are not using an integrated development environment (IDE). 
+1. Start Visual Studio.
+2. On the menu bar, choose `File` > `New` > `Project`.
+3. In the new project dialog box, select `Console Application` under `Visual C#`.
+4. Name the project "HelloWorld" and then click `OK`.
 
-Remember that the compilation process varies depending on the environment so make sure to look it up if you're unsure.
+In the `Program.cs` file, replace the existing code with the following code:
+
+   ```csharp
+   using System;
+
+   namespace HelloWorld
+   {
+       class Program
+       {
+           static void Main(string[] args)
+           {
+               Console.WriteLine("Hello, World!");
+           }
+       }
+   }
+   ```
+   
+5. Press `F5` or click `Start` on the menu to run the program.
+6. You would see the output in the console:
+   
+   ```
+   Hello, World!
+   ```
+
+For tests, as this is a simple hello world program, there are not any elaborate tests you can write. However, you can still make sure the program runs without any errors or exceptions. 
+
+Please note, these instructions are applicable for Visual Studio. If you are using different IDE / text editor or command line, steps might differ slightly. Make sure to refer to respective official documentation for accurate instructions.
